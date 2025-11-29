@@ -1,0 +1,327 @@
+export const HYDERABAD_PLACES = [
+  {
+    id: '1',
+    name: 'Charminar',
+    description: 'Iconic 16th-century mosque and monument, symbol of Hyderabad',
+    detailedDescription: 'Charminar is a historic monument and mosque located in Hyderabad, Telangana, India. Built in 1591 by Muhammad Quli Qutb Shah, the fifth ruler of the Qutb Shahi dynasty, it is one of the most recognized structures of India. The monument was erected to commemorate the eradication of plague from the city. Charminar is a square structure with four grand arches, each facing a cardinal direction. The structure is 56 meters tall and has four minarets, each 48.7 meters high. The monument is made of granite, limestone, mortar, and pulverized marble. It is located in the heart of the old city and is surrounded by bustling markets, making it a popular tourist destination.',
+    image: require('../assets/images/char.jpg'),
+    latitude: 17.3616,
+    longitude: 78.4747,
+  },
+  {
+    id: '2',
+    name: 'Golconda Fort',
+    description: 'Historic fort with magnificent architecture and acoustic features',
+    detailedDescription: 'Golconda Fort is a fortified citadel and an early capital city of the Qutb Shahi dynasty, located in Hyderabad, Telangana, India. The fort was originally built by the Kakatiya dynasty in the 13th century. The fort is famous for its acoustic system, where a hand clap at the entrance can be heard at the highest point of the fort, which is about 1 kilometer away. The fort has eight gates, with the main entrance being the Fateh Darwaza (Victory Gate). The fort complex includes palaces, mosques, and a sound and light show that narrates the history of the fort. It is one of the most magnificent fortress complexes in India.',
+    image: require('../assets/images/golconda.webp'),
+    latitude: 17.3833,
+    longitude: 78.4011,
+  },
+  {
+    id: '3',
+    name: 'Ramoji Film City',
+    description: 'World\'s largest integrated film city and entertainment destination',
+    detailedDescription: 'Ramoji Film City is an integrated film studio complex located in Hyderabad, India. Spread over 2000 acres, it is the largest film studio complex in the world according to the Guinness World Records. Founded by Ramoji Rao in 1996, the film city has been the shooting location for thousands of Indian films, television serials, and commercials. It features various sets including palaces, airports, hospitals, gardens, and urban landscapes. The film city also offers guided tours, theme parks, and entertainment shows, making it a popular tourist destination. It has hosted numerous Bollywood and Tollywood film productions.',
+    image: require('../assets/images/Ramoji.jpg'),
+    latitude: 17.2514,
+    longitude: 78.6806,
+  },
+  {
+    id: '4',
+    name: 'Hussain Sagar',
+    description: 'Heart-shaped lake with Buddha statue, perfect for boating',
+    detailedDescription: 'Hussain Sagar is a heart-shaped lake in Hyderabad, Telangana, India, built by Ibrahim Quli Qutb Shah in 1563. The lake is spread across an area of 5.7 square kilometers and connects the twin cities of Hyderabad and Secunderabad. The lake is famous for the monolithic Buddha statue installed in the center of the lake in 1992. The statue, standing at 18 meters tall and weighing 350 tons, is one of the largest monolithic statues in the world. The lake is a popular spot for boating, water sports, and evening walks. The Tank Bund road runs alongside the lake, offering beautiful views and recreational activities.',
+    image: require('../assets/images/hussain.jpg'),
+    latitude: 17.4239,
+    longitude: 78.4738,
+  },
+  {
+    id: '5',
+    name: 'Salar Jung Museum',
+    description: 'One of the largest one-man collections of antiques in the world',
+    detailedDescription: 'The Salar Jung Museum is an art museum located in Hyderabad, Telangana, India. It is one of the three National Museums of India and houses one of the largest one-man collections of antiques in the world. The collection was amassed by Nawab Mir Yousuf Ali Khan, Salar Jung III, and his ancestors. The museum was opened to the public in 1951 and displays artifacts from various civilizations including Indian, European, Middle Eastern, and Far Eastern cultures. The museum has 38 galleries with over 43,000 art objects and 50,000 books and manuscripts. Notable exhibits include the Veiled Rebecca statue, the Double Statue of Mephistopheles and Margaretta, and a collection of jade objects.',
+    image: require('../assets/images/Salar.jpg'),
+    latitude: 17.3715,
+    longitude: 78.4808,
+  },
+  {
+    id: '6',
+    name: 'Birla Mandir',
+    description: 'Beautiful white marble temple dedicated to Lord Venkateswara',
+    detailedDescription: 'Birla Mandir is a Hindu temple built on a 280-feet high hillock called Naubath Pahad in Hyderabad, Telangana, India. The temple was constructed by the Birla Foundation in 1976 and is made entirely of white marble imported from Rajasthan. The temple is dedicated to Lord Venkateswara, a form of Lord Vishnu. The architecture of the temple is a blend of South Indian, Rajasthani, and Utkala styles. The temple complex includes shrines dedicated to other Hindu deities as well. The temple offers a panoramic view of the city and is particularly beautiful during sunset. It is one of the most visited temples in Hyderabad and is known for its serene atmosphere and architectural beauty.',
+    image: require('../assets/images/birla.webp'),
+    latitude: 17.4065,
+    longitude: 78.4692,
+  },
+];
+
+export const CATEGORIES = [
+  {
+    id: '1',
+    title: 'Hotels',
+    description: 'Stay at the best hotels in Hyderabad',
+    image: 'https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?w=400',
+  },
+  {
+    id: '2',
+    title: 'Restaurants',
+    description: 'Taste authentic Hyderabadi flavours',
+    image: 'https://images.unsplash.com/photo-1551782450-a2132b4ba21d?w=400',
+  },
+  {
+    id: '3',
+    title: 'Experience',
+    description: 'Activities and places you must not miss',
+    image: 'https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=400',
+  },
+];
+
+export const HYDERABAD_RESTAURANTS = [
+  {
+    id: '1',
+    name: 'Paradise Biryani',
+    description: 'Famous for authentic Hyderabadi biryani',
+    cuisine: 'Hyderabadi',
+    rating: 4.5,
+    image: 'https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=400',
+    latitude: 17.3850,
+    longitude: 78.4867,
+  },
+  {
+    id: '2',
+    name: 'Bawarchi Restaurant',
+    description: 'Traditional Hyderabadi cuisine and kebabs',
+    cuisine: 'Hyderabadi',
+    rating: 4.4,
+    image: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=400',
+    latitude: 17.3616,
+    longitude: 78.4747,
+  },
+  {
+    id: '3',
+    name: 'Chutneys',
+    description: 'South Indian breakfast and traditional meals',
+    cuisine: 'South Indian',
+    rating: 4.3,
+    image: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=400',
+    latitude: 17.4065,
+    longitude: 78.4692,
+  },
+  {
+    id: '4',
+    name: 'Shah Ghouse Cafe',
+    description: 'Famous for haleem and kebabs',
+    cuisine: 'Hyderabadi',
+    rating: 4.6,
+    image: 'https://images.unsplash.com/photo-1559339352-11d035aa65de?w=400',
+    latitude: 17.3715,
+    longitude: 78.4808,
+  },
+  {
+    id: '5',
+    name: 'Ohri\'s',
+    description: 'Multi-cuisine restaurant with elegant ambiance',
+    cuisine: 'Multi-cuisine',
+    rating: 4.2,
+    image: 'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=400',
+    latitude: 17.4239,
+    longitude: 78.4738,
+  },
+  {
+    id: '6',
+    name: 'Cafe Bahar',
+    description: 'Popular for biryani and traditional dishes',
+    cuisine: 'Hyderabadi',
+    rating: 4.4,
+    image: 'https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=400',
+    latitude: 17.3833,
+    longitude: 78.4011,
+  },
+  {
+    id: '7',
+    name: 'Hotel Shadab',
+    description: 'Old-city eatery famous for biryani and Irani chai',
+    cuisine: 'Hyderabadi',
+    rating: 4.3,
+    image: 'https://images.unsplash.com/photo-1552566626-52f8b828add9?w=400',
+    latitude: 17.3719,
+    longitude: 78.4800,
+  },
+  {
+    id: '8',
+    name: 'Pista House',
+    description: 'Popular for haleem, desserts, and traditional dishes',
+    cuisine: 'Hyderabadi',
+    rating: 4.4,
+    image: 'https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400',
+    latitude: 17.3610,
+    longitude: 78.4675,
+  },
+];
+
+export const HYDERABAD_HOTELS = [
+  {
+    id: '1',
+    name: 'Taj Falaknuma Palace',
+    description: 'Heritage palace hotel with royal luxury and city views',
+    detailedDescription:
+      'Taj Falaknuma Palace is a magnificent heritage hotel located on a hilltop overlooking Hyderabad. Originally built in 1894 as a palace for the Nizam of Hyderabad, it has been restored into a luxury hotel by the Taj Group. The palace features Venetian chandeliers, marble staircases, and exquisite art collections. Guests can enjoy royal dining, palace tours, and panoramic views of the city. It is one of the most luxurious places to stay in Hyderabad.',
+    image: require('../assets/images/Falaknuma.jpg'),
+    latitude: 17.3319,
+    longitude: 78.4670,
+  },
+  {
+    id: '2',
+    name: 'ITC Kohenur',
+    description: 'Luxury lakeside hotel in HITEC City',
+    detailedDescription:
+      'ITC Kohenur is a luxury hotel located in the heart of Hyderabad’s IT and business district, HITEC City. Overlooking the Durgam Cheruvu lake, the hotel blends contemporary design with local cultural elements. It offers premium rooms, fine-dining restaurants, a spa, and world-class amenities. Its central location makes it ideal for both business and leisure travellers.',
+    image: require('../assets/images/itc.png'),
+    latitude: 17.4313,
+    longitude: 78.3816,
+  },
+  {
+    id: '3',
+    name: 'Hyatt Place Banjara Hills',
+    description: 'Modern hotel in Banjara Hills with city access',
+    detailedDescription:
+      'Hyatt Place Hyderabad Banjara Hills is a modern hotel located in one of Hyderabad’s most premium neighbourhoods. The hotel offers spacious rooms, a rooftop pool, all-day dining, and easy access to shopping and entertainment hubs. It is a popular choice for travellers who want comfort and convenience.',
+    image: require('../assets/images/hyatt.webp'),
+    latitude: 17.4156,
+    longitude: 78.4483,
+  },
+  {
+    id: '4',
+    name: 'The Park Hyderabad',
+    description: 'Boutique hotel overlooking Hussain Sagar lake',
+    detailedDescription:
+      'The Park Hyderabad is a stylish boutique hotel located near Hussain Sagar lake. It offers contemporary rooms, a rooftop pool, bars, and fine-dining options. Its central location and vibrant nightlife make it popular with young travellers.',
+    image: require('../assets/images/the.jpg'),
+    latitude: 17.4275,
+    longitude: 78.4661,
+  },
+  {
+    id: '5',
+    name: 'Novotel Hyderabad Convention Centre',
+    description: 'Business hotel near Hyderabad International Convention Centre',
+    detailedDescription:
+      'Novotel Hyderabad Convention Centre is a premium business hotel connected to the Hyderabad International Convention Centre. It offers spacious rooms, multiple restaurants, large banqueting spaces, and resort-style amenities with gardens and a pool.',
+    image: require('../assets/images/novot.jpg'),
+    latitude: 17.4691,
+    longitude: 78.3635,
+  },
+  {
+    id: '6',
+    name: 'Trident Hyderabad',
+    description: 'Upscale hotel in the financial district of Hyderabad',
+    detailedDescription:
+      'Trident Hyderabad is located in the financial district, close to major IT parks. The hotel features modern rooms with city views, an infinity pool, and award-winning restaurants. It is ideal for business travellers and luxury stays.',
+    image: require('../assets/images/trident.jpg'),
+    latitude: 17.4375,
+    longitude: 78.3733,
+  },
+  {
+    id: '7',
+    name: 'Radisson Blu Plaza Banjara Hills',
+    description: 'Modern hotel with easy access to shopping and nightlife',
+    detailedDescription:
+      'Radisson Blu Plaza in Banjara Hills offers contemporary rooms, international dining, and a relaxing spa. Its central location makes it convenient for shopping, dining, and exploring the city.',
+    image: require('../assets/images/radisson.jpg'),
+    latitude: 17.4150,
+    longitude: 78.4489,
+  },
+  {
+    id: '8',
+    name: 'Marigold by GreenPark',
+    description: 'Comfortable upscale hotel with warm hospitality',
+    detailedDescription:
+      'Marigold by GreenPark is known for its warm hospitality, spacious rooms, and great food. Located in the heart of Hyderabad, it is a good option for both business and leisure travellers.',
+    image: require('../assets/images/mari.jpg'),
+    latitude: 17.4352,
+    longitude: 78.4487,
+  },
+];
+
+export const HYDERABAD_EXPERIENCES = [
+  {
+    id: '1',
+    name: 'Old City Heritage Walk',
+    description: 'Walk through Charminar, Laad Bazaar, and historic lanes',
+    detailedDescription:
+      'Explore the heritage lanes of Hyderabad’s Old City with a guided or self-paced walk. Start from Charminar, visit the bustling Laad Bazaar famous for bangles and pearls, taste Irani chai and Osmania biscuits, and experience the vibrant culture of the city. This walk is perfect for understanding the history, architecture, and food of Hyderabad.',
+    image: require('../assets/images/char.jpg'),
+    latitude: 17.3616,
+    longitude: 78.4747,
+  },
+  {
+    id: '2',
+    name: 'Hussain Sagar Boating',
+    description: 'Evening boat ride to the Buddha statue',
+    detailedDescription:
+      'Enjoy a serene boat ride on Hussain Sagar lake, with stunning views of the city lights and the iconic Buddha statue. Multiple boating options are available, including ferries and speed boats. The experience is especially magical during sunset and in the evening when the statue and surrounding areas are lit up.',
+    image: require('../assets/images/hussain.jpg'),
+    latitude: 17.4239,
+    longitude: 78.4738,
+  },
+  {
+    id: '3',
+    name: 'Ramoji Film City Tour',
+    description: 'Full-day tour of the world’s largest film studio complex',
+    detailedDescription:
+      'Spend a day at Ramoji Film City exploring film sets, theme parks, live shows, and adventure activities. Guided tours take you through famous shooting locations, gardens, and behind-the-scenes areas. It is a must-visit experience for movie lovers and families.',
+    image: require('../assets/images/Ramoji.jpg'),
+    latitude: 17.2514,
+    longitude: 78.6806,
+  },
+  {
+    id: '4',
+    name: 'Hyderabadi Food Trail',
+    description: 'Guided food walk covering biryani, kebabs, and desserts',
+    detailedDescription:
+      'A curated food trail that takes you through iconic eateries of Hyderabad, tasting biryani, kebabs, haleem (seasonal), and traditional desserts. Perfect for food lovers who want to experience authentic local flavours.',
+    image: 'https://images.unsplash.com/photo-1525755662778-989d0524087e?w=400',
+    latitude: 17.3850,
+    longitude: 78.4867,
+  },
+  {
+    id: '5',
+    name: 'Night View from Necklace Road',
+    description: 'Evening walk along Hussain Sagar with city lights',
+    detailedDescription:
+      'Stroll along Necklace Road in the evening for beautiful views of Hussain Sagar lake, city lights, and the Buddha statue. Street food, parks, and viewpoints make it a relaxing urban experience.',
+    image: 'https://images.unsplash.com/photo-1414609245224-afa02bfb3fda?w=400',
+    latitude: 17.4270,
+    longitude: 78.4735,
+  },
+  {
+    id: '6',
+    name: 'Shopping at Laad Bazaar',
+    description: 'Buy bangles, pearls, and traditional jewellery',
+    detailedDescription:
+      'Laad Bazaar, near Charminar, is famous for its colourful bangles, pearls, and bridal wear. Walking through the market gives you a glimpse of Hyderabadi culture and craftsmanship.',
+    image: require('../assets/images/lal.jpg'),
+    latitude: 17.3619,
+    longitude: 78.4738,
+  },
+  {
+    id: '7',
+    name: 'Shilparamam Crafts Village',
+    description: 'Cultural village with handicrafts, shows, and fairs',
+    detailedDescription:
+      'Shilparamam is an arts and crafts village in HITEC City showcasing traditional crafts from across India. It hosts cultural performances, fairs, and has a village-like ambience.',
+    image: require('../assets/images/shilpa.jpg'),
+    latitude: 17.4504,
+    longitude: 78.3809,
+  },
+  {
+    id: '8',
+    name: 'Trek at Ananthagiri Hills (near Hyderabad)',
+    description: 'Weekend nature getaway with trekking and viewpoints',
+    detailedDescription:
+      'Ananthagiri Hills, a few hours from Hyderabad, offers lush greenery, trekking trails, and scenic viewpoints. It is a popular weekend getaway for nature lovers and adventure seekers.',
+    image: 'https://images.unsplash.com/photo-1473448912268-2022ce9509d8?w=400',
+    latitude: 17.3660,
+    longitude: 77.8510,
+  },
+];
+
